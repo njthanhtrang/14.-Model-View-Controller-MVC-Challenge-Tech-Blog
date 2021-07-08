@@ -2,8 +2,6 @@
 ## Description 
 This application is a CMS-style blog site that allows users to publish articles and blog posts and the latest technologies and comment on other developers' posts as well. This application follows the Model View Controller (MVC) architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and express-session npm package for authentication.
 
-This application is deployed to Heroku at .
-
 The user is presented with the homepage, which includes existing blog posts if any have been posted, navigation links for the homepage and the dashboard, and the option to log in.
 
 Acceptance criteria include:
@@ -40,7 +38,7 @@ When the user is idle on the site for more than a set time, the user is able to 
 
 Future implementations include resizing the input area for a better UI experience.
 
-## Table of Contents (Optional)
+## Table of Contents
 ​
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 ​
@@ -51,7 +49,6 @@ If your README is very long, add a table of contents to make it easy for users t
 * [Questions](#questions)
 * [License](#license)
 ​
-​
 ## Installation
 ​
 Clone the repository, navigate to the project folder on your CLI and run the following command to install Node.js:
@@ -61,6 +58,8 @@ Clone the repository, navigate to the project folder on your CLI and run the fol
 Run the following command on your CLI to run the application:
 
 ```node server.js```
+
+Or, view the deployed application on Heroku at https://techblog302.herokuapp.com/.
 ​
 <img width="1060" alt="Screen Shot 2021-07-08 at 10 56 36 AM" src="https://user-images.githubusercontent.com/77700824/124969108-2b2af700-dfdb-11eb-95cc-eefad746769a.png">
 <img width="1057" alt="Screen Shot 2021-07-08 at 10 56 56 AM" src="https://user-images.githubusercontent.com/77700824/124969151-37af4f80-dfdb-11eb-8e38-05efe1e44d42.png">
