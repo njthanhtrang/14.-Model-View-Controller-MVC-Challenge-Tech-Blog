@@ -38,13 +38,8 @@ When clicking on the logout option in the navigation, the user is signed out of 
 
 When the user is idle on the site for more than a set time, the user is able to view comments but is prompted to log in again before they can add, update, or delete comments.
 
+Future implementations include resizing the input area for a better UI experience.
 
-
-​
- explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
-​
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
-​
 ## Table of Contents (Optional)
 ​
 If your README is very long, add a table of contents to make it easy for users to find what they need.
@@ -53,17 +48,23 @@ If your README is very long, add a table of contents to make it easy for users t
 * [Usage](#usage)
 * [Packages](#packages)
 * [Credits](#credits)
+* [Questions](#questions)
 * [License](#license)
 ​
 ​
 ## Installation
 ​
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-​
-​
+Clone the repository, navigate to the project folder on your CLI and run the following command to install Node.js:
+
+```npm install```
 ## Usage 
+Run the following command on your CLI to run the application:
+
+```node server.js```
 ​
-Provide instructions and examples for use. Include screenshots as needed.
+<img width="1060" alt="Screen Shot 2021-07-08 at 10 56 36 AM" src="https://user-images.githubusercontent.com/77700824/124969108-2b2af700-dfdb-11eb-95cc-eefad746769a.png">
+<img width="1057" alt="Screen Shot 2021-07-08 at 10 56 56 AM" src="https://user-images.githubusercontent.com/77700824/124969151-37af4f80-dfdb-11eb-8e38-05efe1e44d42.png">
+<img width="1197" alt="Screen Shot 2021-07-08 at 11 34 20 AM" src="https://user-images.githubusercontent.com/77700824/124973495-71368980-dfe0-11eb-812a-91fb96a90aca.png">
 
 ## Packages
 
@@ -78,18 +79,32 @@ Provide instructions and examples for use. Include screenshots as needed.
 ​
 ## Credits
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Created by Jennifer Nguyen.
+
+## Questions
+For additional questions and information, please visit my [GitHub profile](github.com/njthanhtrang/)
+or reach out via email at njthanhtrang@gmail.com.
 
 ## License
 ​
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-​
-## Badges
-​
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-​
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-​
-## Features
-​
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+MIT License
+
+Copyright (c) [2021] [Jennifer Nguyen]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
