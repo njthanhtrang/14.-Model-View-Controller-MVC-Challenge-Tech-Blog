@@ -29,7 +29,7 @@ router.get("/:id", (req, res) => {
       {
         //   get list of posts user created
         model: Post,
-        attributes: ["id", "title", "created_at"],
+        attributes: ["id", "title", "post_content", "created_at"],
       },
       {
         //   include Post on Comment model so we can see which posts user commented

@@ -44,6 +44,10 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    post_content: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     // foreign key to User's id column
     user_id: {
       type: DataTypes.INTEGER,
